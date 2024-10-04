@@ -3,73 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exclusive LinkedIn Premium Offer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>LinkedIn Premium Offer</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #e0f7fa, #80deea); /* Soft gradient background */
-            color: #333;
-            height: 100vh; /* Full viewport height */
-            display: flex; /* Flexbox for centering */
-            flex-direction: column; /* Stack elements vertically */
-            justify-content: center; /* Center vertically */
-            align-items: center; /* Center horizontally */
+            padding: 50px;
+            background: linear-gradient(to right, #3f51b5, #5a55ae, #9013fe);
+            color: white;
+            margin: 0; 
+            height: 100vh; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
         }
         h1 {
-            font-size: 3em;
-            margin: 20px 0;
-            color: #0077b5; /* LinkedIn blue */
-            text-shadow: 1px 1px 5px rgba(0, 119, 181, 0.5); /* Subtle shadow for depth */
+            font-size: 2.5em; 
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
         }
         img {
-            max-width: 90%;
+            max-width: 100%;
             height: auto;
-            border-radius: 20px; /* More pronounced rounded corners */
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow for a floating effect */
-            margin: 30px 0; /* Space around the image */
-            border: 5px solid #fff; /* White border for contrast */
+            border-radius: 15px; 
+            margin-bottom: 20px; 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
         }
         .cta-button {
-            background-color: #ff5722; /* Bright button color */
+            background-color: #ff5722;
             color: white;
-            padding: 15px 40px;
+            padding: 15px 30px;
             border: none;
             border-radius: 5px;
-            font-size: 1.5em; /* Larger font size */
+            font-size: 20px; /* Increased font size */
             cursor: pointer;
             text-decoration: none;
-            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Initial shadow for button */
+            margin-top: 20px; 
+            transition: background-color 0.3s, transform 0.3s; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Added shadow for depth */
         }
         .cta-button:hover {
-            background-color: #e64a19; /* Darker shade on hover */
-            transform: translateY(-3px); /* Slight upward movement on hover */
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+            background-color: #e64a19;
+            transform: translateY(-2px); /* Slight upward movement on hover */
         }
-        footer {
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #555;
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8em; 
+            }
+            .cta-button {
+                padding: 12px 24px; 
+                font-size: 16px; 
+            }
         }
     </style>
 </head>
 <body>
 
-    <h1>Unlock LinkedIn Premium for Just ₹1599!</h1>
-    
-    <!-- Display the Promotional Image -->
+    <h1>Get LinkedIn Premium for ₹1599</h1>
     <img src="file.jpg" alt="LinkedIn Premium Offer">
-
-    <!-- Call to Action Button -->
-    <a href="https://wa.link/uxc4x0" class="cta-button">Grab Your Offer!</a>
-
-    <footer>
-        <p>Hurry, this offer is limited!</p>
-    </footer>
+    <a href="https://wa.link/uxc4x0" class="cta-button">Buy Now</a>
 
 </body>
 </html>
