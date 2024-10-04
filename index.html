@@ -9,46 +9,51 @@
         body {
             font-family: 'Roboto', sans-serif;
             text-align: center;
-            padding: 50px;
-            background: linear-gradient(135deg, #e0f7fa, #80deea); /* Gradient background */
-            color: #333; /* Text color */
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e0f7fa, #80deea); /* Soft gradient background */
+            color: #333;
+            height: 100vh; /* Full viewport height */
+            display: flex; /* Flexbox for centering */
+            flex-direction: column; /* Stack elements vertically */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
         }
         h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            color: #0077b5; /* LinkedIn color */
+            font-size: 3em;
+            margin: 20px 0;
+            color: #0077b5; /* LinkedIn blue */
+            text-shadow: 1px 1px 5px rgba(0, 119, 181, 0.5); /* Subtle shadow for depth */
         }
         img {
-            max-width: 100%;
+            max-width: 90%;
             height: auto;
-            border-radius: 15px; /* Rounded corners for the image */
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
-            margin-bottom: 30px; /* Space below the image */
-        }
-        .description {
-            font-size: 1.2em;
-            margin: 20px 0;
-            line-height: 1.6; /* Better line spacing */
+            border-radius: 20px; /* More pronounced rounded corners */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow for a floating effect */
+            margin: 30px 0; /* Space around the image */
+            border: 5px solid #fff; /* White border for contrast */
         }
         .cta-button {
-            background-color: #ff5722; /* Vibrant button color */
+            background-color: #ff5722; /* Bright button color */
             color: white;
-            padding: 15px 30px;
+            padding: 15px 40px;
             border: none;
             border-radius: 5px;
-            font-size: 1.2em;
+            font-size: 1.5em; /* Larger font size */
             cursor: pointer;
             text-decoration: none;
-            transition: background-color 0.3s, transform 0.3s; /* Smooth hover effects */
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Initial shadow for button */
         }
         .cta-button:hover {
             background-color: #e64a19; /* Darker shade on hover */
-            transform: scale(1.05); /* Slightly enlarge the button */
+            transform: translateY(-3px); /* Slight upward movement on hover */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
         }
         footer {
-            margin-top: 40px;
+            margin-top: 20px;
             font-size: 0.9em;
-            color: #555; /* Grey color for footer text */
+            color: #555;
         }
     </style>
 </head>
@@ -59,10 +64,8 @@
     <!-- Display the Promotional Image -->
     <img src="file.jpg" alt="LinkedIn Premium Offer">
 
-    <p class="description">Don’t miss out on this exclusive deal! Enjoy all the original benefits of LinkedIn Premium for 6 months at an unbeatable price. Connect with recruiters, access premium learning resources, and advance your career today!</p>
-
     <!-- Call to Action Button -->
-    <a href="https://wa.link/uxc4x0" class="cta-button">Get This Exclusive Offer!</a>
+    <a href="https://wa.link/uxc4x0" class="cta-button">Grab Your Offer!</a>
 
     <footer>
         <p>Hurry, this offer is limited!</p>
